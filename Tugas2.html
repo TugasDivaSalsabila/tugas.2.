@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h2><center><tittle>Formulir Pendaftaran</tittle></center></h2>
+       <link rel="stylesheet" href="Edit.css">
+    </head>
+</html>
+
+<html>
+    <head>
+        <title>Tugas 2</title>
+    </head>
+</html>
+
+<br>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="#">
+            <!-- ini keterangan tanpa label -->
+            Nomor Peserta :
+            <input type="text" name="Nomor" placeholder="No. Peserta"required>
+            <br>
+
+            <br>
+
+            <!-- ini keterangan tanpa label -->
+            <label for="sandi">kata Sandi :</label>
+            <input type="password" id="sandi" placeholder="Kata Sandi" required>
+            <br>
+
+            <br>
+
+            <h4>Data Diri: <br></h4>
+
+            <ul>
+                <li>Nama:
+                    <input type="text" name="Nama" placeholder="Nama Peserta" required>
+                </li>
+                <li>Tempat/Tanggal Lahir:
+                    <input type="text" name="tempat" placeholder="Tempat Lahir" required>
+                    <input type="date" name="Tanggal" placeholder="Tanggal Lahir" required>
+                </li>
+                <li>Jenis Kelamin:
+                    <input type="radio" id="LK" value="Pria"><label for="LK">Laki-laki</label>
+                    <input type="radio" id="PR" value="Perempuan"><label for="PR">Perempuan</label>
+                </li>
+                <li>Golongan Darah:
+                    <select name="Gol.Darah" id="Gol.Darah">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="AB">AB</option>
+                    <option value="O">O</option>  
+                    <br>
+                    </select>     
+                </li>
+                <li>Tinggi Badan:
+                    <input type="text" name="tinggi" placeholder="Cm"required>
+                </li>
+                <li>Berat Badan:
+                    <input type="text" name="Berat Badan" placeholder="Kg"required>
+                </li>
+                <li>Status:<br>
+                    <input type="checkbox" name="Status">Pelajar<br>
+                    <input type="checkbox" name="Status">Mahasiswa<br>
+                    <input type="checkbox" name="Status">Pengajar<br>
+                    <input type="checkbox" name="Status">Dosen<br>
+                    <input type="checkbox" name="Status">Sudah Menikah<br>
+                    <input type="checkbox" name="Status">Belum Menikah<br>
+                </li>
+                <li>Alamat:<br>
+                    <textarea name="Alamat" id="Alamat" cols="40" rows="3"></textarea>
+                </li>
+                <li>No.HP:
+                    <input type="text" name="Nomor" placeholder="+62" required>
+                </li>
+            </ul>
+            
+            <br>
+
+            <h4>Kegiatan Yang Akan Diikuti:<br></h4>
+            <input type="checkbox" name="Kegiatan1">Ekskul
+            <select name="Ekskul" id="Ekskul">
+                <option value="Basket">Basket</option>
+                <option value="Futsal">Futsal</option>
+                <option value="Volly">Volly</option>
+                <option value="Badminton">Badminton</option>
+                <option value="Renang">Renang</option>
+                <option value="Band">Band</option>
+                <option value="Billiard">Billiard</option>
+            </select>
+            <br>
+
+            <input type="checkbox" name="Kegiatan2">Organisasi
+            <input type="text" name="Nama Organisasi" placeholder="Nama Orgnaisasi" required>     
+            <br>
+            
+            <input type="checkbox" name="Kegiatan2">Pesiapan Olimpiade
+            <input type="text" name="Nama" placeholder="Pada Bidang" required>
+            <br>
+
+            <br>
+            
+            <input type="submit" name="submit" placeholder="Submit"required>
+        </form>
+    </body>
+</html>

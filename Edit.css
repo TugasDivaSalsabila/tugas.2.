@@ -1,0 +1,13 @@
+
+body{
+    background-color: rgb(211, 243, 251);
+    background-image: url(foto.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2 {
+    color: rgb(29, 62, 128);
+    text-align: center;
+    font-size: xx-large;
+    
+}
